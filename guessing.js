@@ -24,8 +24,8 @@ window.addEventListener('mousemove', function(event){
 
 //Text to be distorted size and weight
 ctx.fillStyle = 'white';
-ctx.font = '20px Verdana';
-ctx.fillText('BRENNER', 0, 40);
+ctx.font = '30px Verdana';
+ctx.fillText('B', 0, 40);
 const textCoordinates = ctx.getImageData(0,0,100,900);
 
 //particle size and mass
